@@ -30,7 +30,28 @@
   <link rel="icon" type="image/png" href="favicon.png"/>
 
   <title>athlon_player</title>
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: black;
+      overflow: hidden;
+    }
+  
+    #flutter_view {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 100vh;
+      width: 100vw;
+      background-color: black;
+    }
+  </style>
   <link rel="manifest" href="manifest.json">
+  
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
